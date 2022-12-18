@@ -11,6 +11,6 @@ try:
     cur.execute('INSERT INTO Студенты VALUES (?,?,?,?,?,?,?,?,?,?,?)', Студенты)
     conn.commit()
     print('Data Inserted')
-
+    print('Успешно')
 except pyodbc.Error as e:
     print("Error in Connection")
